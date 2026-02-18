@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.7.0 (2026-02-18)
+
+### Features
+
+- **releasekit**: add Forge protocol extensions, transitive propagation, and multi-backend conformance (d6dbb44, #4577) — @Yesudeep Mangalapilly
+- **py/checks**: add Google Checks AI Safety plugin (a8bf3c1, #4504) — @Yesudeep Mangalapilly
+
+### Bug Fixes
+
+- **releasekit**: replace literal null byte with git %x00 escape in changelog format (4866724, #4661) — @Yesudeep Mangalapilly
+- issues reported by releasekit (fba9ed1, #4646) — @Yesudeep Mangalapilly
+- **py**: resolve CI license check failures and lint diagnostics (e8519ef, #4524) — @Yesudeep Mangalapilly
+
 ## 0.6.0 (2026-02-17)
 
 ### Features
